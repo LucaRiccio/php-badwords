@@ -4,5 +4,8 @@ e sostituire la badword passata in GET con tre *. -->
 
 <?php
   $testo = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
-  echo $testo;
+
+  $lunghezza = strlen($testo);
+  
+  echo $testo . $lunghezza;
 ?>
